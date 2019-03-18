@@ -1,0 +1,6 @@
+framework module wxxlib3 {
+  umbrella header "wxxlib3.h"
+
+  export *
+  module * { export * }
+}
