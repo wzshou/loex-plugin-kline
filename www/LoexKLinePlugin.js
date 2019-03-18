@@ -1,4 +1,4 @@
-cordova.define("wxx.loex.kline", function(require, exports, module) {
+cordova.define("loex-plugin-kline", function(require, exports, module) {
 
 	var exec = require('cordova/exec');
 
