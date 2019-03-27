@@ -7,7 +7,7 @@
             <script type="text/javascript" charset="utf-8">
                 
                 function testPlugin() {
-                    cordova.exec(testSuccess,testFailed,"ocLoexKLinePlugin","showKLine",[{"key" : ["value1","value2","value3"]}]);
+                    cordova.exec(testSuccess,testFailed,"LoexKLinePlugin","showKLine",[{"key" : ["value1","value2","value3"]}]);
                 }
             function testSuccess(msg) {
                 alert(msg);
