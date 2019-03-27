@@ -1,17 +1,23 @@
 {
   "name": "loex-plugin-kline",
-  "version": "1.0.0",
-  "description": "K线插件，目前只支持横屏",
+  "version": "1.0.1",
+  "description": "K线插件",
   "cordova": {
     "id": "loex-plugin-kline",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzshou/loex-plugin-kline.git"
   },
   "keywords": [
     "LoexKLinePlugin",
     "ecosystem:cordova",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova-android"
   ],
   "engines": [
     {
@@ -19,6 +25,10 @@
       "version": ">=2.3.0"
     }
   ],
-  "author": "",
-  "license": "ISC"
+  "author": "wxx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzshou/loex-plugin-kline/issues"
+  },
+  "homepage": "https://github.com/wzshou/loex-plugin-kline#readme"
 }
