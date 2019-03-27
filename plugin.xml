@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <plugin xmlns="http://phonegap.com/ns/plugins/1.0"
     id="loex-plugin-kline"
-    version="1.0.0">
+    version="1.0.1">
     <engines>
         <engine name="cordova" version=">=2.3.0" />
     </engines>
