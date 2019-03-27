@@ -1,4 +1,4 @@
-# ocLoexKLinePlugi,使用示例
+# LoexKLinePlugi,使用示例
 <html>
     <head>
         <title>testPlugin</title>
