@@ -24,6 +24,12 @@
 //            [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 //        }];
         
+       /* {
+        url:"http://rtyuiop?kk=5&jj=9"
+        typeKey:"type"
+        typeValue:["","","","",""]
+        }*/
+        
         Y_StockChartViewController *vc = [Y_StockChartViewController new];
         [self.viewController presentViewController:vc animated:vc completion:nil];
         

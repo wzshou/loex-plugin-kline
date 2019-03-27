@@ -17,7 +17,7 @@
     <platform name="ios">
         
         <config-file target="config.xml" parent="/*">
-            <feature name="ocLoexKLinePlugin">
+            <feature name="LoexKLinePlugin">
                 <param name="ios-package" value="LoexKLinePlugin" />
             </feature>
         </config-file>
@@ -31,5 +31,19 @@
         
         
     </platform>
+    
+    
+    
+    <platform name="android">
+        <source-file src="src/android/LoexKLinePlugin.java" target-dir="src/com/hand/toast"/>
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="LoexKLinePlugin">
+                <param name="android-package" value="com.hand.toast.LoexKLinePlugin"/>
+            </feature>
+        </config-file>
+    </platform>
+    
+    
+    
 </plugin>
 
